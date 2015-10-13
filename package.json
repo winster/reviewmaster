@@ -1,0 +1,35 @@
+{
+  "name": "reviewapp",
+  "version": "1.0.0",
+  "description": "review scrape",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winster/reviewmaster.git"
+  },
+  "keywords": [
+    "review",
+    "productreview"
+  ],
+  "author": "wtjose@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winster/reviewmaster/issues"
+  },
+  "homepage": "https://github.com/winster/reviewmaster",
+  "dependencies" : {
+    "pg": "4.x",
+    "ejs": "2.3.3",
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "body-parser":"latest"
+  }
+}
