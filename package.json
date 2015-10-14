@@ -30,6 +30,7 @@
     "express"    : "latest",
     "request"    : "latest",
     "cheerio"    : "latest",
-    "body-parser":"latest"
+    "body-parser":"latest",
+    "indiansentiment":"latest"
   }
 }
