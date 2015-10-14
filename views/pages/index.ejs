@@ -8,13 +8,20 @@
 
   <% include ../partials/nav.ejs %>
 
-<div class="container-fluid">
+<div class="container">
 
+  <h1>Copy product URL</h1>
+      
   <div class="row">
     <div class="col-lg-12">
-      <h1>Copy product URL</h1>
       <form action="/" method="post">
-        <input type="text" class="form-control" aria-label="ProductUrl" name="url" placeholder="for example paste a URL like, http://www.flipkart.com/mi-4i/p/itme8cuyyqdwek9m">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="ProductUrl" name="url" placeholder="for example paste a similar  starts with: http://www.flipkart.com/mi-4i/p/itme8cuyyqdwek9m">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit">Go!</button>
+          </span>
+        </div>
+        
       </form> 
     </div>
   </div>
